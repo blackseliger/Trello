@@ -1,0 +1,108 @@
+.columns-block {
+    width: 990px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+}
+
+.columns, .columm-block, .column-card {
+    box-sizing: border-box;
+}
+
+.columns, .column-block, .header-block {
+    display: flex;
+}
+
+.column, .header-block, .column-header-card, .column-card {
+    width: 100%;
+}
+
+.column-block, .column-card {
+    border-radius: 25px;
+}
+
+.columns {
+    flex-wrap: nowrap;
+    border-radius: 15px;
+    border-color: aquamarine;
+    border: 1px;
+    border: outset;
+}
+
+.column-block {
+    width: 320px;
+    border: solid;
+    margin: 10px;
+    border-color: darksalmon;
+    padding: 10px;
+}
+
+
+.column-block:nth-child(n+1) {
+    margin-right: 10px;
+}
+
+.column-block:nth-child(3n+1) {
+    margin-left: 10px;
+}
+
+
+.column {
+    margin-bottom: 30px;
+}
+
+.column-header-card, .column-card {
+    margin-bottom: 10px;
+}
+
+.header-block {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.header-info {
+    width: 50%;
+}
+
+.column-header-card {
+    text-align: center;
+}
+
+.column-card {
+    border: 1px solid gray;
+}
+
+.column-card-info, .column-card-options, .add-card {
+    margin-left: 15px;
+}
+
+.form-input-hidden, .add-card-hidden {
+    display: none;
+}
+
+.form-input {
+    text-align: center;
+}
+
+.field {
+    margin: 20px;
+    width: 200px;
+    max-width: 200px;
+    max-height: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background-color: lemonchiffon; 
+}
+
+.button {
+    width: 150px;
+    height: 30px;
+    background-color: bisque;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
